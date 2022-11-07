@@ -8,6 +8,8 @@ public class Student {
 
     String gender;
 
+    //constructor 无返回值，不能写void，写了void就变成了普通的方法
+
     public Student(String name, int age, String gender) {
         this.name = name;
         this.age = age;
