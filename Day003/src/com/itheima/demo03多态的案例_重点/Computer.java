@@ -6,6 +6,7 @@ public class Computer {
     public void useUsb(Usb u) {
         u.connect();
         // 调用Usb设备的特有功能
+        //判断
         if (u instanceof UsbMouse) {
             // 如果是Usb鼠标,调用Usb鼠标的特有功能
             UsbMouse um = (UsbMouse)u;
