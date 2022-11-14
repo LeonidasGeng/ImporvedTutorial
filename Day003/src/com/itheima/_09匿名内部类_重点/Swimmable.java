@@ -1,4 +1,5 @@
-package com.itheima.demo09匿名内部类_重点;
+package com.itheima._09匿名内部类_重点;
+//1-1写出接口
 
 public interface Swimmable {
     // shift + f6: 修改名字快捷键

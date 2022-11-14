@@ -1,4 +1,4 @@
-package com.itheima.demo03多态的案例_重点;
+package com.itheima._03多态的案例_重点;
 
 /*USB 接口
 

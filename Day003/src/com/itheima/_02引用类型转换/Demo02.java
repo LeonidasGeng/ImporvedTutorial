@@ -1,4 +1,4 @@
-package com.itheima.demo02引用类型转换;
+package com.itheima._02引用类型转换;
 
 import com.itheima._01多态polymorphism介绍_重点.Animal;
 import com.itheima._01多态polymorphism介绍_重点.Cat;

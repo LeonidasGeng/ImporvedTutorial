@@ -1,4 +1,4 @@
-package com.itheima.demo10匿名内部类使用场景;
+package com.itheima._10匿名内部类使用场景;
 
 import java.util.ArrayList;
 import java.util.Collections;

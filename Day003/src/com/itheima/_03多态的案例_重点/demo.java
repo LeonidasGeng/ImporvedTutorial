@@ -1,4 +1,4 @@
-package com.itheima.demo03多态的案例_重点;
+package com.itheima._03多态的案例_重点;
 /*
 USB 鼠标 ： 插入，拔出，点击功能
 USB 键盘 ： 插入，拔出，敲击

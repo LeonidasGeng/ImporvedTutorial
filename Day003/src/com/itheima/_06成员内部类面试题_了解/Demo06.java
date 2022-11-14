@@ -1,4 +1,4 @@
-package com.itheima.demo06成员内部类面试题_了解;
+package com.itheima._06成员内部类面试题_了解;
 
 /*
 目标:了解内部类如何访问外部类成员变量

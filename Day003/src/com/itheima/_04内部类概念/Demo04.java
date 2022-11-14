@@ -1,4 +1,4 @@
-package com.itheima.demo04内部类概念;
+package com.itheima._04内部类概念;
 
 /*
 以前我们定义类的时候,每个类都是独立的
@@ -7,6 +7,7 @@ package com.itheima.demo04内部类概念;
 
 讲解:
     什么是内部类: 把一个类定义到另一个类的里面 (类中类)
+
     class AA { //外部类（寄主）
         class BB { //内部类(寄生）
             xxxxxx
@@ -24,6 +25,10 @@ package com.itheima.demo04内部类概念;
     内部类的分类: 按照定义位置
         1.成员内部类
         2.局部内部类
+
+    成员位置：
+    类中，方法外
+
  */
 public class Demo04 {
     public static void main(String[] args) {

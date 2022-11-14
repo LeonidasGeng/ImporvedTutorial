@@ -1,4 +1,4 @@
-package com.itheima.demo03多态的案例_重点;
+package com.itheima._03多态的案例_重点;
 
 public class USBKeyboard implements USB{
     //常规功能1，插入/链接

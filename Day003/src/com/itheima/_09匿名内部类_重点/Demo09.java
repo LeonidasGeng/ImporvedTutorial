@@ -1,4 +1,4 @@
-package com.itheima.demo09匿名内部类_重点;
+package com.itheima._09匿名内部类_重点;
 /*
 目标:学习匿名内部类的格式和使用
 
@@ -22,19 +22,23 @@ package com.itheima.demo09匿名内部类_重点;
  */
 public class Demo09 {
     public static void main(String[] args) {
-        // 3.使用实现类
+        // 3.使用实现类，使用Student类创建对象，与下面的含义一样
         Student s1 = new Student();
+        //使用s1对象调用方法
         s1.swimming();
 
         // 匿名内部类
         // 局部内部类编译后: 外部类名$数字内部类名.class
         // 匿名内部类编译后: Demo09$1.class
+
+        //也是定义一个类，但没名字，所以叫匿名内部类
         Swimmable s2 = new Swimmable() {
             @Override
-            public void swimming() {
-                System.out.println("匿名内部类狗刨式游泳!");
+            public void swimming() { //👇这个没有名字的类，实现了接口
+                System.out.println("匿名内部类，狗刨式游泳!");
             }
         };
         s2.swimming();
+
     }
 }

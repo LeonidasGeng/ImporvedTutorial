@@ -1,4 +1,4 @@
-package com.itheima.demo08局部内部类_了解;
+package com.itheima._08局部内部类_了解;
 /*
 目标:了解局部内部类的创建和使用
 
@@ -21,6 +21,8 @@ package com.itheima.demo08局部内部类_了解;
  */
 public class Demo08 {
     public static void main(String[] args) {
+        //不能用别的方法里的东西
+        //Chopsticks c = new Chopsticks();//报错
         Chinese chinese = new Chinese();
         chinese.eat();
     }

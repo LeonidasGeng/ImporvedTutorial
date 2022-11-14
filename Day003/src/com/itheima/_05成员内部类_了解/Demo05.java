@@ -1,4 +1,4 @@
-package com.itheima.demo05成员内部类_了解;
+package com.itheima._05成员内部类_了解;
 /*
 目标:了解成员内部类的使用
 
@@ -33,7 +33,7 @@ public class Demo05 {
         // 3.调用内部类方法
         heart.jump();
 
-        body.isLive = false;
+        body.isLive = false;//修改成员变量
         heart.jump();
     }
 }
