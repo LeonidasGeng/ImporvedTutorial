@@ -13,7 +13,7 @@ public class USBMouse implements USB{
     public void disconnect() {
         System.out.println("USB鼠标已断开");
     }
-    //特有功能
+    //特有功能，点击
     public static void click(){
         System.out.println("USB鼠标点了一下");
     }

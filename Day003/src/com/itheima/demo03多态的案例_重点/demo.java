@@ -10,4 +10,18 @@ USB 键盘 ： 插入，拔出，敲击
 
  */
 public class demo {
+    public static void main(String[] args) {
+        //创建USB鼠标
+        USBMouse mouse = new USBMouse();
+
+        //创建USB键盘
+        USBKeyboard keyboard = new USBKeyboard();
+        //创建USB电脑
+        Computer computer = new Computer();
+        computer.useUSB(mouse);
+        computer.useUSB(keyboard);
+        //电脑使用USB设备
+
+    }
+
 }
