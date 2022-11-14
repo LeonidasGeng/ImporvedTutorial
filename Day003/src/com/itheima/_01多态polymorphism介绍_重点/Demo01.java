@@ -1,7 +1,7 @@
-package com.itheima.demo01多态介绍_重点;
+package com.itheima._01多态polymorphism介绍_重点;
 
 /*
-目标:学习多态概念
+目标:学习多态polymorphism概念
 
 讲解:
     面向对象三大特性: 封装,继承,多态
@@ -30,40 +30,45 @@ package com.itheima.demo01多态介绍_重点;
  */
 public class Demo01 {
     public static void main(String[] args) {
-        // 以前我们创建对象: 类名 变量名 = new 类名();
-        Dog d = new Dog();
-        Cat c = new Cat();
+        // 以前我们创建对象:
+        // 类名 变量名 = new 类名();
+        //Dog d = new Dog();
+        //1, Cat c = new Cat();
 
-        // 多态: 父类/接口 变量名 = new 子类/实现类();
+        // 多态:
+        // 父类/接口 变量名 = new 子类/实现类();
         Animal a = new Dog();
         a.eat();
+        //想在Dog里使用cat的catchMouse;
+        //1, c.catchMouse();
+//        ((Cat)a).catchMouse();
         Animal b = new Cat();
         b.eat();
         // a.catchMouse();
 
         // 你使用
-        go(d);
-        go(c);
+        //go(d);
+        //go(c);
     }
 
-    // 多态的真正运用场景(假设你同时写了一个方法)
+    // 多态的真正运用场景(假设你同事写了一个方法)
     // 多态的好处: 方法参数写父类,可以传入任意子类,提高代码的扩展性
-    // 可以传入所有的动物,调用eat方法
+    // 可以传入所有的动物,调用eat方法，方法名取go
     // go(d);             Animal a = new Dog();
     // go(c);             Animal a = new Cat();
-    public static void go(Animal a) {
-
-        a.eat();
-    }
+//    public static void go(Animal a) {
+//        a.eat();
+//    }
 
     // go(d);             Dog d = new Dog();
     // go(c);             Dog d = new Cat();
-    public static void go(Dog d) {
-        d.eat();
-    }
-
-    // go(c);             Cat c = new Cat();
-    public static void go(Cat c) {
-        c.eat();
-    }
+//    public static void go(Dog d) {
+//        d.eat();
+//    }
+//
+//    // go(c);             Cat c = new Cat();
+//    //重载
+//    public static void go(Cat c) {
+//        c.eat();
+//    }
 }
