@@ -1,4 +1,4 @@
-package com.itheima.demo12枚举的使用;
+package com.itheima._12枚举的使用;
 
 import java.util.Scanner;
 
@@ -20,7 +20,7 @@ import java.util.Scanner;
     枚举的使用:
         枚举名.成员变量名
 
-    枚举的好处: 将来不能随便写数据,一定是从枚举中选择某一项
+    枚举的好处: 将来不能随便写数据,一定是从枚举中选择某一项, 少数固定值
 
     枚举的应用场景:
         方向,季节,月份,小时
@@ -30,15 +30,15 @@ import java.util.Scanner;
  */
 public class Demo12 {
     public static void main(String[] args) {
-        Person p = new Person("迪丽热巴", Gender.MALE);
+        Person p = new Person("迪丽热巴", Gender.FEMALE);
 
         System.out.println(p.getName() + ", " + p.getSex());
 
+        // 让数字转成枚举
         System.out.println("请输入性别,0表示男,1表示女");
         Scanner sc = new Scanner(System.in);
         int i = sc.nextInt();
 
-        // 让数字转成枚举
         Gender value = Gender.values()[i];
         System.out.println("value = " + value);
     }

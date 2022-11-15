@@ -1,4 +1,4 @@
-package com.itheima.demo14Object特点;
+package com.itheima._14Object特点;
 /*
 目标:学习Object类的特点
 

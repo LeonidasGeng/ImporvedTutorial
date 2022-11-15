@@ -1,8 +1,8 @@
-package com.itheima.demo13枚举深入了解;
+package com.itheima._13枚举深入了解;
 
 // 季节
 public enum Season {
-    // 春,     夏,   秋,       冬
+    //春,     夏,      秋,     冬
     SPRING, SUMMER, AUTUMN, WINTER;
 }
 

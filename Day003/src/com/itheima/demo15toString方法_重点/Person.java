@@ -12,8 +12,6 @@ public class Person {
         this.age = age;
     }
 
-    // 子类觉得父类的toString()功能不够强大,子类重写toString()返回对象的属性
-    // 使用快捷键: alt + insert -> toString()
     @Override
     public String toString() {
         return "Person{" +
@@ -21,6 +19,11 @@ public class Person {
                 ", age=" + age +
                 '}';
     }
+
+    // 子类觉得父类的toString()功能不够强大,子类重写toString()返回对象的属性
+    // 使用快捷键: alt + insert -> toString()
+
+
 
     public String getName() {
         return name;

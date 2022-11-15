@@ -1,4 +1,4 @@
-package com.itheima.demo13枚举深入了解;
+package com.itheima._13枚举深入了解;
 /*
 xxx.java -> 编译javac -> xxx.class
 xxx.java <- 反编译工具 <- xxx.class

@@ -1,4 +1,4 @@
-package com.itheima.demo12枚举的使用;
+package com.itheima._12枚举的使用;
 
 public class Person {
     private String name; // 姓名
