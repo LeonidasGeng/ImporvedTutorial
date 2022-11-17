@@ -38,4 +38,3 @@ public class Demo15 {
         System.out.println(list);
         System.out.println(list.toString());
     }
-}
