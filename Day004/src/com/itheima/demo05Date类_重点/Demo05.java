@@ -34,7 +34,7 @@ public class Demo05 {
         System.out.println("getTime: " + date.getTime()); // 1647501454424
 
         // void setTime​(long time) 了解, 在标准时间 1970年1月1日 0时0分0秒基础上加上指定的毫秒值
-        date.setTime(3000);
+        date.setTime(2000);
         System.out.println("date = " + date); // Thu Jan 01 08:00:03 CST 1970
     }
 }
