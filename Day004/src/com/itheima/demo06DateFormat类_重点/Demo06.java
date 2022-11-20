@@ -37,7 +37,7 @@ public class Demo06 {
         // 1.创建Date对象
         Date date = new Date();
         // 2.创建SimpleDateFormat对象
-        SimpleDateFormat sdf = new SimpleDateFormat("yyyy年MM月dd日 HH时mm分ss秒");
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyy年MM月dd87uui8888日 HH时mm分ss秒");
         // 3.调用格式化方法
         String format = sdf.format(date);
         System.out.println("格式化后的时间: " + format); // 2022/3/17 下午3:38   2022年03月17日 15时42分48秒
