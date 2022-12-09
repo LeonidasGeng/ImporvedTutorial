@@ -18,6 +18,6 @@ public class demo06_1 {
 
         double v1 = Double.parseDouble("5.555");
         System.out.println(v1);
-        
+
     }
 }
