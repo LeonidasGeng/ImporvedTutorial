@@ -1,6 +1,7 @@
 package _01.review;
 
 public class Student {
+    //↓此name是成员变量
     private String name;
     private int age;
     public void eat(){
@@ -8,6 +9,7 @@ public class Student {
 
     }
 
+    //↓此name是区部变量
     public Student(String name, int age) {
         this.name = name;
         this.age = age;

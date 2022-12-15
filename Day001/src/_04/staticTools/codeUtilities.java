@@ -6,13 +6,12 @@ public class codeUtilities {
     //生成验证码的方法
     public static String getCode(){
         Random random = new Random();
-        StringBuilder stringBuilder = new StringBuilder();
+        StringBuilder sB = new StringBuilder();//创建字符串合集
         //生成4个验证码
         for (int i = 0; i < 4; i++) {
-            int i1 = random.nextInt(10);
-            stringBuilder.append(i1);
-
+            int i1 = random.nextInt(10);//10: 0~9
+            sB.append(i1);
         }
-        return stringBuilder.toString();
+        return sB.toString();
     }
 }

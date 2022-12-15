@@ -10,7 +10,7 @@ package _05.inheritance;
 
  */
 //父类
-public class parents {
+public class Person {
     String name;
     int age;
     public void eat(){

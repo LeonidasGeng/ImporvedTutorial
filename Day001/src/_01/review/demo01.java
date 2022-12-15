@@ -18,11 +18,14 @@ package _01.review;
 4，面向对象3大特征，封装，继承，多态
 
 5，this 关键字
+作用：区分局部变量和成员变量
 
 6，构造方法，构造器的格式
+构造器名字必须和类名长得一样，不能写void，写了void就是一个普通的方法
 
-
-
+7.一个Java文件可以写多个类
+但public修饰的类必须和文件名一样
+👇             👇
  */
 public class demo01 {
     public static void main(String[] args) {
@@ -31,3 +34,9 @@ public class demo01 {
     }
 }
 
+class test02{
+
+}
+class test03{
+
+}

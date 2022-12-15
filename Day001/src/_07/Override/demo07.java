@@ -3,7 +3,7 @@ package _07.Override;
 
 方法重写
 
-同一个类中，方法名相同，参数列表不同
+父类与子类中，方法名相同，参数列表相同,方法内容不同
 
 老手机：
 打电话（语音通话）
@@ -18,8 +18,9 @@ package _07.Override;
 Java 权限范围：
 private<默认<protect<public
 
+子类权限权限跟父类相同或比父类大
 
-
+子类中进行重写
  */
 public class demo07 {
     public static void main(String[] args) {

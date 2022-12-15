@@ -1,4 +1,4 @@
-package _02.staticForVar;
+package _02.StaticForVaribles;
 
 public class Window {
     String name;
