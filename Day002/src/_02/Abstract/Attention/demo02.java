@@ -8,5 +8,24 @@ package _02.Abstract.Attention;
 4，子类必须重写抽象类中的所有抽象方法，如果子类只重写一部分抽象方法，子类还是抽象类
 
  */
-public class demo02 {
+abstract class demo02 {
+    public abstract void show();
+
+}
+
+abstract class fu1 {
+    public abstract void show1();
+    public abstract void show2();
+}
+
+class zi1 extends fu1{
+    @Override
+    public void show1() {
+        System.out.println("1");
+    }
+
+    @Override
+    public void show2() {
+
+    }
 }
