@@ -13,15 +13,15 @@ class child1 extends parent1{} /*如果上面有final，child1不能继承parent
 //final可以修饰方法，final修饰的方法不能被重写
 class parent2{
     //final修饰的方法不能被重写
-    public final void method(){
-        System.out.println("我是父类method方法");
+    public final void show(){
+        System.out.println("我是父类show方法");
     }
 }
 
 /*
 class child2 extends parent2{
-   public void method(){
-        System.out.println("我是子类method方法");
+   public void show(){
+        System.out.println("我是子类show方法");
     }
 }
 */
