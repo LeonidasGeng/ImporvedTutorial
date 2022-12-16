@@ -1,5 +1,5 @@
 package _01.Abstract;
-
+//         👇在class前写上abstract
 public abstract class Card {
     private String name;
     private double balance;
