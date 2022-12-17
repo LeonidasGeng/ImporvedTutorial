@@ -1,4 +1,4 @@
-package _10.Case;
+package _10.CasePokerGame;
 
 import java.util.ArrayList;
 
@@ -17,9 +17,9 @@ public class Room {
 
     //使用静态代码块准备一副牌
     static {
+        //首先添加大小王
         pokers.add("大王");
         pokers.add("小王");
-
 
         //花色
         String[] colors = {"♥", "♠", "♦", "♣"};
