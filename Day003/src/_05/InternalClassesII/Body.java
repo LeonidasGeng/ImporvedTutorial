@@ -1,4 +1,4 @@
-package _05.InternalClassII;
+package _05.InternalClassesII;
 
 public class Body {
     //类中，方法外（

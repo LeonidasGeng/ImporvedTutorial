@@ -19,8 +19,9 @@ public class demo03 {
         Computer computer = new Computer();
 
         //电脑使用USB设备
-        computer.usUSB(mouse);
-        computer.usUSB(keyboard);
+        computer.useUSB(mouse);
+        System.out.println("====================");
+        computer.useUSB(keyboard);
 
     }
 }

@@ -1,4 +1,4 @@
-package _05.InternalClassII;
+package _05.InternalClassesII;
 
 public class demo05 {
     public static void main(String[] args) {
