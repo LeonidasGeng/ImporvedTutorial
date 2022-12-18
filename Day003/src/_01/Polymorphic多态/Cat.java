@@ -1,4 +1,4 @@
-package _01.Polymorphic;
+package _01.Polymorphic多态;
 
 public class Cat extends Animal{
     @Override
@@ -6,6 +6,7 @@ public class Cat extends Animal{
         System.out.println("猫吃鱼");
     }
 
+    //特有方法
     public void catchMouse() {
         System.out.println("猫抓老鼠");
     }

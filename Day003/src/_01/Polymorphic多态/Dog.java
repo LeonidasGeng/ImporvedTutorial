@@ -1,4 +1,4 @@
-package _01.Polymorphic;
+package _01.Polymorphic多态;
 
 public class Dog extends Animal{
     @Override
