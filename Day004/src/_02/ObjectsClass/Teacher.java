@@ -1,4 +1,4 @@
-package _02.Objects;
+package _02.ObjectsClass;
 
 import java.util.Objects;
 
