@@ -1,8 +1,7 @@
 package _05.InternalClassesII;
 
 public class Body {
-    //类中，方法外（
-    // 成员位置
+    //类中，方法外（成员位置）
     private String color;//成员变量
     public boolean isAlive = true;//成员变量
 
@@ -13,6 +12,7 @@ public class Body {
 
     //类中方法外
     //成员位置
+    //成员内部类
     class Heart{
         public void life(){
             if(isAlive){
