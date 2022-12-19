@@ -1,4 +1,4 @@
-package _06.ControllingAccess.inheritance.practice;
+package _06.BasicDataTypesWrapperClass基本类型的包装类.inheritance.practice;
 
 public class demo06 {
     public static void main(String[] args) {

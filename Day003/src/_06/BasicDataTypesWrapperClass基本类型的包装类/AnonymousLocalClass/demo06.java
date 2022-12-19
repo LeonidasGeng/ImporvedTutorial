@@ -1,4 +1,4 @@
-package _06.ControllingAccess.AnonymousLocalClass;
+package _06.BasicDataTypesWrapperClass基本类型的包装类.AnonymousLocalClass;
 /*
 是一个没有名字的局部内部类
 方便构建子类对象，简化代码

@@ -1,9 +1,9 @@
-package _06.ControllingAccess.DataTypes;
+package _09.ControllingAccess.DataTypes;
 
 /*
 
  */
-public class demo06_1 {
+public class demo09 {
     public static void main(String[] args) {
         //int转String
         String str1 = 5+"";
