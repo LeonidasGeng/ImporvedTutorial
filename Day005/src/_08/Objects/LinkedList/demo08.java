@@ -1,4 +1,4 @@
-package _08.LinkedList;
+package _08.Objects.LinkedList;
 
 import java.util.LinkedList;
 

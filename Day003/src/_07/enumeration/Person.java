@@ -1,9 +1,11 @@
-package _07.enumerate;
+package _07.enumeration;
 
 public class Person {
     private String name;
     private Gender gender;
 
+    //加参数构造器
+    //加getter，setter
     public Person() {
     }
 
@@ -28,7 +30,7 @@ public class Person {
         this.gender = gender;
     }
 
-    public void eat(){
-        System.out.println("小李吃饭"+name+gender);
+    public void print(){
+        System.out.println("方法1："+name+"的性别是"+gender);
     }
 }
