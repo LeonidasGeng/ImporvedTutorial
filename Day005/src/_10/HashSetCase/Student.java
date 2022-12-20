@@ -7,6 +7,7 @@ public class Student {
     private int age;
     private double score;
 
+    //为了打印方便
     @Override
     public String toString() {
         return "Student{" +
@@ -16,6 +17,7 @@ public class Student {
                 '}';
     }
 
+    //重写，equals()和hashCode()都需要
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;

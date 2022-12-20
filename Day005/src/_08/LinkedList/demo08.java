@@ -1,10 +1,10 @@
-package _08.Objects.LinkedList;
+package _08.LinkedList;
 
 import java.util.LinkedList;
 
 /*
 LinkedList
-底层数据结构是双链表，参训满，增删快
+底层数据结构是双链表，查询慢，增删快
 
  */
 public class demo08 {
@@ -16,7 +16,7 @@ public class demo08 {
         linked.add("貂蝉");
         linked.add("西施");
         linked.add("杨玉环");
-
+        //特有方法
         //void addFirst(E e) 在最前面加一个数据
         //void addLast(E e) 在最前面加一个数据
         linked.addFirst("小胡");
@@ -33,7 +33,7 @@ public class demo08 {
         //removeFirst()去除第一个元素
         //getLast()去除最后一个元素
         linked.removeFirst();
-        System.out.println(linked);
+        System.out.println("删除第一个后："+linked);
         linked.removeLast();
-        System.out.println(linked);
+        System.out.println("删除最后一个后："+linked);
     }}
