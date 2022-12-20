@@ -21,6 +21,8 @@ import java.util.Collection;
 public class demo02 {
     public static void main(String[] args) {
         //Collection接口中的方法
+        //编译看左边
+        //学习👇Colloection中的方法
         Collection<String> coll = new ArrayList<>();
 
         //boolean add(E e)添加元素
