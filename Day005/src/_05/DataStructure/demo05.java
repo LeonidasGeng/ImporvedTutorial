@@ -1,6 +1,7 @@
 package _05.DataStructure;
 
 /*
+常见数据结构:
 1，栈
 2，队列
 

@@ -1,8 +1,7 @@
-package _03.Iterator;
+package _03.Iterator迭代器_遍历集合_Traversal;
 
 import java.util.ArrayList;
 import java.util.Collection;
-import java.util.Collections;
 import java.util.Iterator;
 
 /*
@@ -29,17 +28,17 @@ public class demo03 {
         coll.add("武大郎");
 
         Iterator<String> itr = coll.iterator();
+//        System.out.println(itr.next());//贾乃亮
+//        System.out.println(itr.next());//陈羽凡
+//        System.out.println(itr.next());//王宝强
+//        System.out.println(itr.next());//武大郎
+//        System.out.println(itr.next());//❗报错：NoSuchElementException, 无元素异常
+        //推荐方法：
         while (itr.hasNext()){
             //循环判断是否有元素，有元素就打印名字
             String name= itr.next();
             System.out.println(name);
         }
-
-//        System.out.println(itr.next());
-//        System.out.println(itr.next());
-//        System.out.println(itr.next());
-//        System.out.println(itr.next());
-////        System.out.println(itr.next());//NoSuchElementException, 没有元素异常
 
     }
 }
