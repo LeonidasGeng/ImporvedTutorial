@@ -1,6 +1,7 @@
 package _02.collection;
 /*
 collection
+        单列集合
 list:   1，有索引
         2，元素可以重复
         3，储存和取出有顺序
