@@ -12,6 +12,7 @@ import java.util.TreeSet;
 4，把学生对象添加到集合
 5，遍历集合
 
+比较器排序优先级高
  */
 public class demo02 {
     public static void main(String[] args) {
@@ -20,7 +21,7 @@ public class demo02 {
         //创建TreeSet集合对象，使用比较器排序
         new TreeSet<>(new Comparator<Student>() {
             @Override
-            public int compare(Student o1, Student o2) {
+            public int compare(Student o1 , Student o2) {
                 return o2.getAge()- o1.getAge();
             }
         });

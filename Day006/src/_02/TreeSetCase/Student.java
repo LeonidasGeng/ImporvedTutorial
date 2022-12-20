@@ -5,6 +5,13 @@ public class Student implements Comparable<Student>{
     private int age;
 
     @Override
+    public int compareTo(Student o) {
+        //this
+        //o===>传入的
+        //这两个进行比较
+        return o.age-this.age;//升序（默认）
+    }
+    @Override
     public String toString() {
         return "Student{" +
                 "name='" + name + '\'' +
@@ -37,14 +44,7 @@ public class Student implements Comparable<Student>{
     }
 
 
-    @Override
-    public int compareTo(Student o) {
-        //this
-        //o
-        //这两个进行比较
 
-        return o.age-this.age;
-    }
 }
 
 
