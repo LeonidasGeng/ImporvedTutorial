@@ -1,4 +1,4 @@
-package _03.PolymorphicCase;
+package _03.generic_泛型.PolymorphicCase;
 /*
 USB鼠标：插入，拔出，点击
 USB键盘：插入，拔出，敲击

@@ -1,4 +1,4 @@
-package _03.PolymorphicCase;
+package _03.generic_泛型.PolymorphicCase;
 
 public class Computer {
     //有使用各种USB设备的功能

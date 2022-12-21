@@ -1,4 +1,4 @@
-package _03.TemplateMethodPattern;
+package _03.generic_泛型.TemplateMethodPattern;
 
 /*
 金卡

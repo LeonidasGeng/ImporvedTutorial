@@ -1,4 +1,4 @@
-package _03.PolymorphicCase;
+package _03.generic_泛型.PolymorphicCase;
 
 public class USBKeyboard implements USB{
     @Override

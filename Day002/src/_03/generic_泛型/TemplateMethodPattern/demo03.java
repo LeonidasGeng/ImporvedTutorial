@@ -1,4 +1,4 @@
-package _03.TemplateMethodPattern;
+package _03.generic_泛型.TemplateMethodPattern;
 /*
 使用模板方法:
 当项目中有多个子类，且功能相同，大部分代码是一样的，小部分不同的时候

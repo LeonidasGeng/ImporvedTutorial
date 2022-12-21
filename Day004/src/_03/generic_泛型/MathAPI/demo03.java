@@ -1,4 +1,4 @@
-package _03.MathAPI;
+package _03.generic_泛型.MathAPI;
 /*
 API
 application programming interface

@@ -1,4 +1,4 @@
-package _03.Iterator迭代器_遍历集合_Traversal;
+package _03.generic_泛型.Iterator迭代器_遍历集合_Traversal;
 
 import java.util.ArrayList;
 import java.util.Collection;

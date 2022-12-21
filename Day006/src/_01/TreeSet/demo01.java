@@ -1,6 +1,7 @@
 package _01.TreeSet;
 
 import java.util.Comparator;
+import java.util.Iterator;
 import java.util.TreeSet;
 
 /*
@@ -71,12 +72,7 @@ public class demo01 {
         System.out.println("");
         System.out.println("====================");
 
-        TreeSet<String> treeSet3 = new TreeSet<>(new Comparator<String>() {
-            @Override
-            public int compare(String o1, String o2) {
-                return o2-o1;
-            }
-        });
+        TreeSet<String> treeSet3 = new TreeSet<>();
 
         treeSet3.add("abc");
         treeSet3.add("ab");
@@ -84,9 +80,29 @@ public class demo01 {
         treeSet3.add("gg");
         treeSet3.add("xyz");
 
-        for (String s : treeSet3) {
+        Iterator<String> stringIterator = treeSet3.descendingIterator();
+        for (Iterator<String> it = stringIterator; it.hasNext(); ) {
+            String s = it.next();
             System.out.println(s);
         }
+        System.out.println("====================");
+        TreeSet<String> treeSet4 = new TreeSet<>(new Comparator<String>() {
+            @Override
+            public int compare(String o1, String o2) {
+                return o2.charAt(0)-o1.charAt(0);
+            }
+        });
+
+        treeSet4.add("abc");
+        treeSet4.add("ab");
+        treeSet4.add("ac");
+        treeSet4.add("gg");
+        treeSet4.add("xyz");
+
+        for (String s : treeSet4) {
+            System.out.println(s);
+        }
+
 
     }
 }
