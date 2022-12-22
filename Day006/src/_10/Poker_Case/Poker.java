@@ -4,9 +4,10 @@ package _10.Poker_Case;
 public class Poker {
     //花色
     private String color;
-    //数字
+    //数字，有J,Q,K,A 所以要用字符串
     private String number;
 
+    //重写toString，输出花色+数字
     @Override
     public String toString() {
         return color + number;

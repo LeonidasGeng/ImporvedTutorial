@@ -27,13 +27,17 @@ import java.util.Collections;
     直接打印每个集合
  */
 public class demo03 {
+    //创建一个集合ArrayList来储存牌
     private static ArrayList<Poker> pokers = new ArrayList<>();
 
-    //静态代码块给静态变量赋值
+    //静态代码块给静态成员变量赋值
     static{
+        //搞出大，小王，大王/小王+数组，但无数字
+        //Poker daWang = new Poker("大王", "");
+        //pokers.add(daWang);
         pokers.add(new Poker("大王",""));
         pokers.add(new Poker("小王",""));
-        //使用循环拼接
+        //使用循环拼接花色与数字
         String[] colors = {"♠","♥","♦","♣"};
         String[] numbers = {"A","2","3","4","5","6","7","8","9","10","J","Q","K"};
         //嵌套循环
@@ -44,15 +48,18 @@ public class demo03 {
             }
         }
     }
+
+    //main方法打印集合
     public static void main(String[] args) {
         System.out.println("准备好一副牌: "+pokers);
 
-        //洗牌 collections.shuffle
+        //洗牌 collections.shuffle 随机打乱
         Collections.shuffle(pokers);
         System.out.println("洗好牌了："+pokers);
 
         //发牌
         //按顺序发牌
+        //一个玩家就是一个集合
         ArrayList<Poker> play1 = new ArrayList<>();
         ArrayList<Poker> play2 = new ArrayList<>();
         ArrayList<Poker> play3 = new ArrayList<>();
@@ -62,19 +69,23 @@ public class demo03 {
         //玩家1 索引值%3=0
         //玩家2 索引值%3=1
         //玩家3 索引值%3=2
-        //51,52,53位置的牌留着当hide底牌
+        //51,52,53 位置的牌留着当hide底牌
 
         for (int i = 0; i < pokers.size(); i++) {
             //i 索引
             //poker 索引对应的牌
             Poker poker = pokers.get(i);
+                //51.52.53 是底牌
             if (i>=51) {
                 hide.add(poker);
+                //玩家1底牌
             }else if (i%3 ==0){
                 play1.add(poker);
+                //玩家2底牌
             } else if (i%3==1) {
+                //玩家3底牌
                 play2.add(poker);
-            } else if (i%3==2) {
+            } else {
                 play3.add(poker);
             }
         }
