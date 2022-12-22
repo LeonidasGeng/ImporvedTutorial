@@ -1,4 +1,4 @@
-package _05LibraryBookManagementSystem;
+package _06.LibraryBookManagementSystem;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -40,7 +40,7 @@ import java.util.Set;
     4，6 往集合XX添加新的书
 
  */
-public class demo02 {
+public class demo05 {
     //成员变量保存书籍
     private static Map<String, ArrayList<Book>> map = new HashMap<>();
 

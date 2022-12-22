@@ -1,4 +1,4 @@
-package _04.MapPractice;
+package _04.Map_Practice;
 
 import java.util.HashMap;
 import java.util.Map;

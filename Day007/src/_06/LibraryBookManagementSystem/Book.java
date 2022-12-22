@@ -1,4 +1,4 @@
-package _05LibraryBookManagementSystem;
+package _06.LibraryBookManagementSystem;
 public class Book {
     private String name;
     private double price;
