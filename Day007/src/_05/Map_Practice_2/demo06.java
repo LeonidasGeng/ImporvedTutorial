@@ -56,6 +56,7 @@ public class demo06 {
                 //5.1 取出之前的次数
                 Integer count = map.get(user);
                 //5.2 次数+1
+                //map.put(user,count + 1);
                 map.put(user,++count);
             }else{
                 //4，如果用户在Map中的键不存在，设置为1次

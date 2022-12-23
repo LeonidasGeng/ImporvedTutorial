@@ -1,4 +1,4 @@
-package _06.LibraryBookManagementSystem;
+package _06.Library_Book_Management_System_增删查改;
 public class Book {
     private String name;
     private double price;
