@@ -94,7 +94,7 @@ public class demo06 {
             System.out.println("请输入你的选择： ");
             //1.2让用户输入选择
             Scanner sc = new Scanner(System.in);
-            sc.nextInt();
+            //可以sc.nextInt().var
             int number = sc.nextInt();
             //1.3根据用户输入的字数匹配不同的功能
             switch (number) {
