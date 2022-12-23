@@ -21,18 +21,12 @@ public class Book {
 
         Book book = (Book) o;
 
-        if (Double.compare(book.price, price) != 0) return false;
         return Objects.equals(name, book.name);
     }
 
     @Override
     public int hashCode() {
-        int result;
-        long temp;
-        result = name != null ? name.hashCode() : 0;
-        temp = Double.doubleToLongBits(price);
-        result = 31 * result + (int) (temp ^ (temp >>> 32));
-        return result;
+        return name != null ? name.hashCode() : 0;
     }
 
     public Book() {
