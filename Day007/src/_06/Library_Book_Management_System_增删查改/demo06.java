@@ -74,25 +74,7 @@ public class demo06 {
     //1.查看书籍
     //idea自动生成方法
     //先写方法名：showBooks(); alt+回车 选择 Create Method
-    private static void showBooks() {
-        //        3，1 打印标题信息  \t ===> 空格
-        System.out.println("类型\t\t\t书名\t\t价格");
-//        3，2 遍历Map集合
-        Set<Map.Entry<String, ArrayList<Book>>> entrySet = map.entrySet();
-        //map.entryset.for 遍历Map集合，
-        for (Map.Entry<String, ArrayList<Book>> entry : entrySet) {
-            //获取键（名著）
-            String key = entry.getKey();
-            System.out.println(key);
-            //获取值（ArrayList集合）
-            ArrayList<Book> value = entry.getValue();
-            //得到的值是ArrayList集合
-            //需要遍历ArrayList集合 value.for
-            for (Book book : value) {
-                System.out.println(book.getName()+"\t"+book.getPrice());
-            }
-        }
-    }
+
     private static void addBooks(){
         System.out.println("请输入要添加的类型：");
     }
@@ -134,6 +116,25 @@ public class demo06 {
                     System.exit(0);
                 default:
                     System.out.println("没有这样的操作");
+            }
+        }
+    }
+    private static void showBooks() {
+        //        3，1 打印标题信息  \t ===> 空格
+        System.out.println("类型\t\t\t书名\t\t价格");
+//        3，2 遍历Map集合
+        Set<Map.Entry<String, ArrayList<Book>>> entrySet = map.entrySet();
+        //map.entryset.for 遍历Map集合，
+        for (Map.Entry<String, ArrayList<Book>> entry : entrySet) {
+            //获取键（名著）
+            String key = entry.getKey();
+            System.out.println(key);
+            //获取值（ArrayList集合）
+            ArrayList<Book> value = entry.getValue();
+            //得到的值是ArrayList集合
+            //需要遍历ArrayList集合 value.for
+            for (Book book : value) {
+                System.out.println(book.getName()+"\t"+book.getPrice());
             }
         }
     }
