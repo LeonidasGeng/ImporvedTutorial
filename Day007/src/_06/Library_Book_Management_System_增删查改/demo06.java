@@ -272,6 +272,7 @@ public class demo06 {
                 //修改数据
                 book.setName(newName);
                 book.setPrice(newPrice);
+                System.out.println("修改 " + oldName + " 成功！");
                 return;
             }
         }
