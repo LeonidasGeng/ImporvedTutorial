@@ -83,7 +83,8 @@ public class demo06 {
     public static void main(String[] args) {
         //1.欢迎页面
         //1.4死循环（一直循环，完成某个功能后，回到欢迎页面）
-        while (true) {
+        Scanner sc = new Scanner(System.in);
+        while (sc.hasNextInt()) {
             //1.1 打印欢迎面信息
             System.out.println("----------欢迎来到图书馆里系统----------");
             System.out.println("1, 查看书籍");
@@ -93,8 +94,7 @@ public class demo06 {
             System.out.println("5, 退出");
             System.out.println("请输入你的选择： ");
             //1.2让用户输入选择
-            Scanner sc = new Scanner(System.in);
-            sc.nextInt();
+
             int number = sc.nextInt();
             //1.3根据用户输入的字数匹配不同的功能
             switch (number) {
