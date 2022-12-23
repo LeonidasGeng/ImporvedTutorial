@@ -1,4 +1,4 @@
-package _03.generic_泛型.staticForMethod;
+package _03.staticForMethod;
 /*
 格式
 修饰符 static 返回值类型 方法名(){

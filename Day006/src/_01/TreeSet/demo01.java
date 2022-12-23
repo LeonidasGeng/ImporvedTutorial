@@ -1,4 +1,4 @@
-package _01.HashMap_for_Custom_Object.TreeSet;
+package _01.TreeSet;
 
 import java.util.Comparator;
 import java.util.Iterator;

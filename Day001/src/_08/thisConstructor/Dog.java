@@ -1,4 +1,4 @@
-package _08.Objects.thisConstructor;
+package _08.thisConstructor;
 
 public class Dog {
     private String name;

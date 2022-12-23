@@ -1,4 +1,4 @@
-package _08.Objects.finalForVariables;
+package _08.finalForVariables;
 
 /*
 final修饰变量，这个变量只能使用一次

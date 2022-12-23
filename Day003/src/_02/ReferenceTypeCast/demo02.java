@@ -1,4 +1,4 @@
-package _02.LinkedinHashMap.ReferenceTypeCast;
+package _02.ReferenceTypeCast;
 /*
 概念：
 一类事物的多种形态

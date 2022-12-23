@@ -1,4 +1,4 @@
-package _03.generic_泛型.staticForMethod;
+package _03.staticForMethod;
 
 public class Student {
     String name;

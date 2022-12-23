@@ -1,4 +1,4 @@
-package _02.LinkedinHashMap.StaticForVaribles;
+package _02.StaticForVaribles;
 /*
 电影院
 2个售票窗口window

@@ -1,4 +1,4 @@
-package _08.Objects.finalForVariables;
+package _08.finalForVariables;
 
 public class Person {
      int age;

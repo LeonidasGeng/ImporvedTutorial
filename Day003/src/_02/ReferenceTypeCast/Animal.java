@@ -1,4 +1,4 @@
-package _02.LinkedinHashMap.ReferenceTypeCast;
+package _02.ReferenceTypeCast;
 
 //父类
 public abstract class Animal {

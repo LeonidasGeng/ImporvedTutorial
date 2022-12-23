@@ -1,4 +1,4 @@
-package _02.LinkedinHashMap.ReferenceTypeCast;
+package _02.ReferenceTypeCast;
 
 public class Dog extends Animal {
     @Override
