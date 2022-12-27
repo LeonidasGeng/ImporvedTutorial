@@ -9,8 +9,8 @@
       <module fileurl="file://$PROJECT_DIR$/Day005/Day005.iml" filepath="$PROJECT_DIR$/Day005/Day005.iml" />
       <module fileurl="file://$PROJECT_DIR$/Day006/Day006.iml" filepath="$PROJECT_DIR$/Day006/Day006.iml" />
       <module fileurl="file://$PROJECT_DIR$/Day007/Day007.iml" filepath="$PROJECT_DIR$/Day007/Day007.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Day008_009/Day008_009.iml" filepath="$PROJECT_DIR$/Day008_009/Day008_009.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Day009_008/Day009_008.iml" filepath="$PROJECT_DIR$/Day009_008/Day009_008.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Day008/Day008.iml" filepath="$PROJECT_DIR$/Day008/Day008.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Day009/Day009.iml" filepath="$PROJECT_DIR$/Day009/Day009.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/ImporvedTutorial.iml" filepath="$PROJECT_DIR$/.idea/ImporvedTutorial.iml" />
     </modules>
   </component>
