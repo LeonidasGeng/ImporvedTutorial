@@ -5,9 +5,12 @@ import java.io.File;
 /*
 public boolean delete() 删除文件或文件夹
 
-直接删除，不走回收站，不可撤回
+直接删除(格式化)，不走回收站，不可撤回
 如果是一个文件，直接删除
 如果是一个文件夹，需要先删除文件夹中的内容，最后才能删除文件夹
+
+//字符串里黏贴，自动打上双\\，如果没有自己要添加
+
  */
 public class demo02 {
     public static void main(String[] args) {
@@ -17,9 +20,9 @@ public class demo02 {
         System.out.println(file1.delete());
 
         //2，boolean delete() 删除空文件夹
-        File file2 = new File("C:\\Software\\MyFileTest\\test3"); //空文件夹，true
+        File file2 = new File("C:\\Software\\MyFileTest\\test3"); //空文件夹，返回true
         System.out.println("file2.delete()");
-        File file3 = new File("C:\\Software\\MyFileTest\\test2"); //里面有文件，false
+        File file3 = new File("C:\\Software\\MyFileTest\\test2"); //里面有文件，需要删除后才能删除文件夹，返回false
         System.out.println("file3.delete()");
     }
 }

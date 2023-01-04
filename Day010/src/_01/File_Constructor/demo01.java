@@ -18,6 +18,8 @@ File类有好多构造器
     1, File(String pathname)  File(D:\2022年8月线下完结JAVAEE课程\02阶段JAVA进阶(每天看3个)\day10-File、递归、IO流\2-讲义)
 
 在window里，//和\\都可以
+//字符串里黏贴，自动打上双\\，如果没有自己要添加
+
  */
 public class demo01 {
     public static void main(String[] args) {
@@ -38,7 +40,5 @@ public class demo01 {
         //File parent = new File("C://Software");
         //File file3 = new File(parent, "MyFileTest");
         System.out.println("file3 = "+file3);
-
-
     }
 }
