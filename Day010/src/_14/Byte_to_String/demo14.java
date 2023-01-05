@@ -8,7 +8,7 @@ public class demo14 {
         String str = "您好";
         byte[] bytes = str.getBytes();
         System.out.println(Arrays.toString(bytes));
-                                   
+
         byte[] b = {1,2,3};
         //byte[]转String
         //String(byte[] bytes)
