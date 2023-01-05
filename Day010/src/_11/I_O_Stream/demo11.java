@@ -1,6 +1,6 @@
 package _11.I_O_Stream;
 /*
-IO流
+I/O流
 i:imput，输入
 o:output，输出
 
