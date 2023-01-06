@@ -11,7 +11,8 @@ TCP ServerSocket 服务端
     1, 创建服务端
     2, 创建客户端
     ===客户端自动连接服务端===
-    3,
+    3, 同意客户端的链接
+    4, getOutStream
  */
 public class demo03_TCP_Client {
     //编写TCP客户端
@@ -26,7 +27,7 @@ public class demo03_TCP_Client {
 
         //2, 得到输出流写数据
         OutputStream out = socket.getOutputStream();
-        out.write("Hello World!\n".getBytes());
+        out.write("Hello World!!\n".getBytes());
 
         //3, 得到输入流读取数据
         InputStream in = socket.getInputStream();
