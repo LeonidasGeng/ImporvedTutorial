@@ -25,10 +25,11 @@ public class demo05_Server {
     public static void main(String[] args) throws IOException {
         //    1 创建服务端
         ServerSocket serverSocket = new ServerSocket(9999);
+        //一直等待别人链接，上传不是一次性的
         while (true) {
             //    2 同意客户端的链接
             Socket socket = serverSocket.accept();
-            System.out.println(socket.getRemoteSocketAddress()+"开始上传");
+            System.out.println(socket.getRemoteSocketAddress()+"开始上传");//getRemoteSocketAddress 知道是谁上传（IP地址）
             //    3 getInputStream 得到输入流读数据
             InputStream in = socket.getInputStream();
             //    4 创建文件输入流读取文件数据
@@ -53,8 +54,9 @@ public class demo05_Server {
             out.close();
             in.close();
             fos.close();
-            //socket.close(); 服务器不需要关闭
-        }
+            socket.close();
 
+        }
+        //ServerSocket.close();服务器不需要关闭
     }
 }
